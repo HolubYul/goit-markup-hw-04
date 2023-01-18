@@ -191,6 +191,10 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.values-item{
+  width:264px;
+}
+
 .values-item::before {
   width: 264px;
   display: block;
