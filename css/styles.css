@@ -89,14 +89,31 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-   padding-top: 24px;
+  padding-top: 24px;
   padding-bottom: 24px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
    
 }
 .menu-item:not(:last-child) {
   margin-right: 40px;
 }
+.current{
+position: relative;
+color: #404bbf;
+}
+
+.current::after{
+   position: absolute;
+  content: '';
+  border-radius: 2px;
+width: 100%;
+height: 4px;
+background-color: #404bbf;
+left: 0;
+bottom: -1px;
+}
+
 .menu-item .menu-link:focus,
 .menu-item .menu-link:hover {
   color: #404bbf;
@@ -120,7 +137,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  
+  transition: color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -132,8 +149,11 @@ a {
 
 /* HERO */
 .hero {
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+  background-size: cover;
   background-color: #2e2f42;
   padding: 188px 0;
+  
 }
 .title-hero {
   font-size: 56px;
@@ -196,6 +216,7 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  padding-top: 8px;
 }
 .values-menu {
   display: flex;
@@ -203,6 +224,7 @@ a {
 
 .values-item {
     flex-basis: calc((100%-3*24)/4);
+    
 }
 
 .values-text {
@@ -212,6 +234,21 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.icon-v{
+display: block;
+border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+background: #f4f4fd;
+padding-left: 100px;
+padding-top: 24px;
+
+
+}
+
+
 /* OUR TEAM */
 .team {
   background-color: #f4f4fd;
@@ -260,8 +297,36 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 30px;
  
 }
+
+.soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.soc-list-link {
+  display: flex;
+ justify-content:center;
+ align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:#4d5ae5;
+  
+}
+
+.soc-list-link:hover,
+.soc-list-link:focus{
+  background-color:#31d0aa;
+}
+.soc-list-icon{
+fill: #f4f4fd;
+}
+
+
 /* OUR PORTFOLIO */
 .partfolio {
   background-color: #ffffff;
@@ -341,4 +406,21 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.soc-footer {
+
+  font-size: 16px;
+  font-weight: 500;
+   line-height: 1.5;
+ letter-spacing: 0.02em;
+color: #fff;
+margin-left: 120px;}
+
+.soc-fot-item {display: flex;}
+
+.soc-list-fot {
+  /* display: flex; */
+  margin-top: 140px;
+  margin-left: 540px;
 }
