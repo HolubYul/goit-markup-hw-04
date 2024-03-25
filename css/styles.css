@@ -49,7 +49,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 .nav {
   display: flex;
@@ -58,7 +57,9 @@ a {
 
 .page-header {
    border-bottom: 1px solid #e7e9fc;
+   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -190,7 +191,7 @@ bottom: -1px;
   border: none;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-hero:focus,
@@ -325,14 +326,14 @@ padding-top: 24px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color:#4d5ae5;
+  background-color:#404bbf;
   
 }
 
 .soc-list-link:hover,
 .soc-list-link:focus{
   background-color:#31d0aa;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc-list-icon{
 fill: #f4f4fd;
