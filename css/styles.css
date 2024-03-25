@@ -228,9 +228,11 @@ bottom: -1px;
   margin-bottom: 8px;
   padding-top: 8px;
 }
-
+.values-menu{
+display: flex;
+}
 .values-group{
- display: flex;
+ 
  align-items: center; 
  justify-content: center;
  height: 112px;
