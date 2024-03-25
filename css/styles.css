@@ -427,6 +427,7 @@ overflow:hidden;
 .soc-foot-general{
   display: flex;
   align-items: baseline;
+  margin-left: 156px;
 }
 
 .soc-foot-item{
