@@ -426,6 +426,11 @@ overflow:hidden;
   display: flex;
   align-items: baseline;
 }
+
+.soc-foot-item{
+margin-right: 120px;
+ }
+ 
 .logo-down{
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -466,9 +471,7 @@ margin-left: 120px;
 margin-bottom: 16px; 
 }
 
-.soc-foot-item{
-margin-right: 120px;
- }
+
 
 .soc-list-fot {
   display: flex;
@@ -477,7 +480,16 @@ margin-right: 120px;
   margin-left: 120px;
   
 }
-
+.soc-list-link2 {
+  display: flex;
+ justify-content:center;
+ align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:#4d5ae5;
+  
+}
 .soc-list-link2:hover,
 .soc-list-link2:focus{
   background-color: #31d0aa;
