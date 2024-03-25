@@ -232,7 +232,7 @@ bottom: -1px;
 display: flex;
 }
 .values-group{
- 
+ display: flex;
  align-items: center; 
  justify-content: center;
  height: 112px;
@@ -254,19 +254,6 @@ flex-basis: calc((100%-3*24)/4);
   letter-spacing: 0.02em;
   color: #434455;
 }
-
-/* .icon-v{
-display: block;
-border: 1px solid #8e8f99;
-border-radius: 4px;
-width: 264px;
-height: 112px;
-background: #f4f4fd;
-padding-left: 100px;
-padding-top: 24px;
-
-} */
-
 
 /* OUR TEAM */
 .team {
@@ -433,7 +420,7 @@ overflow:hidden;
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
-
+ 
 }
 .logo-down{
   font-family: "Raleway", sans-serif;
@@ -466,7 +453,6 @@ overflow:hidden;
 }
 
 .soc-footer {
-
   font-size: 16px;
   font-weight: 500;
    line-height: 1.5;
@@ -475,8 +461,9 @@ color: #fff;
 margin-left: 120px;
 margin-bottom: 16px;}
 
-.soc-foot-general {
-display: flex;
+.soc-foot-item{
+display:flex;
+align-items: baseline;
  }
 
 .soc-list-fot {
