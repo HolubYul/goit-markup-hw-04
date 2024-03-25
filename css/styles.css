@@ -482,7 +482,7 @@ margin-left: 120px;
   margin-left: 120px;
   
 }
-.soc-list-link2 {
+.soc-list-link-f {
   display: flex;
  justify-content:center;
  align-items: center;
@@ -492,8 +492,8 @@ margin-left: 120px;
   background-color:#4d5ae5;
   
 }
-.soc-list-link2:hover,
-.soc-list-link2:focus{
+.soc-list-link-f:hover,
+.soc-list-link-f:focus{
   background-color: #31d0aa;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
