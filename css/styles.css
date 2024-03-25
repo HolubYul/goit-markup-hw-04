@@ -228,10 +228,18 @@ bottom: -1px;
   margin-bottom: 8px;
   padding-top: 8px;
 }
-.values-menu {
-  display: flex;
- gap: 24px;}
 
+.values-group{
+ display: flex;
+ align-items: center; 
+ justify-content: center;
+ height: 112px;
+ background-color: #f4f4fd; 
+ border-radius: 4px; 
+ border: 1px solid #8e8f99;
+ margin-bottom: 8px;
+
+}
 .values-item {
 flex-basis: calc((100%-3*24)/4);
     
@@ -245,7 +253,7 @@ flex-basis: calc((100%-3*24)/4);
   color: #434455;
 }
 
-.icon-v{
+/* .icon-v{
 display: block;
 border: 1px solid #8e8f99;
 border-radius: 4px;
@@ -255,7 +263,7 @@ background: #f4f4fd;
 padding-left: 100px;
 padding-top: 24px;
 
-}
+} */
 
 
 /* OUR TEAM */
