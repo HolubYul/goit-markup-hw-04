@@ -326,13 +326,13 @@ padding-top: 24px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color:#404bbf;
+  background-color:#4d5ae5;
   
 }
 
 .soc-list-link:hover,
 .soc-list-link:focus{
-  background-color:#31d0aa;
+  background-color:#404bbf;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc-list-icon{
@@ -346,6 +346,7 @@ fill: #f4f4fd;
 }
 .portfolio-item {
    flex-basis: calc((100% - 2 * 24px) / 3);
+   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item:hover .overlay{
@@ -404,7 +405,7 @@ font-weight: 400;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 background-color: #4d5ae5;
-padding: 40px 32px 164px;
+padding: 40px 32px;
 position: absolute;
 left: 0;
 top: 0;
