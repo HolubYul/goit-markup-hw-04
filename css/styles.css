@@ -230,7 +230,9 @@ bottom: -1px;
 }
 .values-menu{
 display: flex;
+gap: 24px;
 }
+
 .values-group{
  display: flex;
  align-items: center; 
