@@ -418,7 +418,7 @@ position: relative;
 overflow:hidden;
 }
 
-/* FOOTER */
+/* FOOTER ====================================*/
 .footer{
   background-color: #2e2f42;
   padding: 100px 0;
@@ -431,6 +431,7 @@ overflow:hidden;
 
 .soc-foot-item{
 margin-right: 120px;
+margin-left: 156px;
  }
 
 .logo-down{
@@ -470,16 +471,14 @@ margin-right: 120px;
    line-height: 1.5;
  letter-spacing: 0.02em;
 color: #fff;
-margin-left: 120px;
 }
-
 
 
 .soc-list-foot {
   display: flex;
   align-items:center;
   gap: 16px;
-  margin-left: 120px;
+  
   
 }
 .soc-list-link-f {
